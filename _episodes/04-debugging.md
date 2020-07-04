@@ -1,7 +1,7 @@
 ---
 title: "Debugging"
 teaching: 30
-exercises: 3
+exercises: 15
 questions:
 - "What do I do to find out why my code failed?"
 - "Are debuggers just for compiled languages?"

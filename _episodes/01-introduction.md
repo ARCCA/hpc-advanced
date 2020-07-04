@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-teaching: 15
-exercises: 1
+teaching: 10
+exercises: 5
 questions:
 - "Why would I want to advance my skills?"
 objectives:

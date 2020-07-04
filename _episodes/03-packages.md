@@ -1,7 +1,7 @@
 ---
 title: "Installing packages"
-teaching: 30
-exercises: 5
+teaching: 15
+exercises: 30
 questions:
 - "How do I install a package for language X?"
 - "Can I use the operating system package manager?"

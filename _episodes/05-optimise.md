@@ -1,7 +1,7 @@
 ---
 title: "Optimisation"
-teaching: 60
-exercises: 1
+teaching: 45
+exercises: 15
 questions:
 - "Why is more job running so slowly?"
 - "What is a GPU and how do I use one?"

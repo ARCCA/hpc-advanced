@@ -1,7 +1,7 @@
 ---
 title: "Development tools for building code"
-teaching: 45
-exercises: 3
+teaching: 30
+exercises: 15
 questions:
 - "What more can I do with the command-line?"
 - "How can I revert changes to code?"
