@@ -40,6 +40,7 @@ position the cursor at the beginning of the line, `CTRL-e` to the end.  In `vi` 
 beginning of the line, `$` to the end.
 
 > ## Finding currently used options
+>
 > Find the current set of options used by your Bash shell and find the editing mode used.
 >
 > > ## Solution
@@ -50,7 +51,9 @@ beginning of the line, `$` to the end.
 > > $ set -o
 > > ~~~
 > > {: .language-bash}
-> >
+> > 
+> > That produces:
+> > 
 > > ~~~
 > > <...>
 > > emacs           on
