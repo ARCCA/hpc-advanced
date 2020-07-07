@@ -271,7 +271,7 @@ $ perl -I ~/perl5/lib/perl5/ -Mlocal::lib
 
 This will install Perl packages in `$HOME/perl5`.
 
-## Example
+### Example
 
 Install the `Test::More` package.
 
@@ -321,7 +321,7 @@ own - maybe via the [Singularity Hub](https://www.singularity-hub.org)
 > `--nv` command line option that loads the relevent GPU libraries into the container from the host operating system.
 {: .callout}
 
-## Example
+### Example
 
 To download a container from Singularity Hub then you can run:
 
