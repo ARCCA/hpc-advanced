@@ -2,4 +2,4 @@
 
 filename = __file__
 import pdb; pdb.set_trace()
-print 'path = %s' % (filename)
+print('path = %s' % (filename))

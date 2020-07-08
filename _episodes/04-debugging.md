@@ -155,9 +155,9 @@ $ gdb ./a.out
 [gdb](https://www.gnu.org/software/gdb/) can usually be found where GNU compilers are available.  It is very useful to
 print out other variables near to where the program crashes. 
 
-## ARM DDT
+## ARM Forge
 
-ARM DTT is a commercial debugger.  It is loaded with a module
+ARM Forge contains a commercial debugger.  It is loaded with a module
 
 ~~~
 $ module load arm-forge
