@@ -99,6 +99,23 @@ $ ifort -C main.f90
 ~~~
 {: .language-bash}
 
+> ## Demonstration
+> 
+> Download the files
+> 
+> ~~~
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug1
+> ~~~
+> {: .language-bash}
+> 
+> Look at the `Makefile`, can you change the compilation options to turn on some of the compiler options.
+> Update the time on `main.f90` with `touch main.f90` - run `make` again.
+> Try switching compilers and see how debug options work.
+> > ## Solution
+> > The options should help identify issues.  Updating the file should rebuild the executable.  Just explore!
+> {: .solution}
+{: .challenge}
+
 ## System settings
 
 There are a few settings that can control the behaviour when compiled languages are run these are set using the `ulimit`
@@ -164,7 +181,7 @@ The important file to make sure it works is the template job submission script f
 `/home/c.username/debug/slurm.qtf` in the figure above and can be downloaded with
 
 ~~~
-$ wget {{ site.url }}{{ site.baseurl }}/files/slurm.qtf
+$ wget {{ site.url }}{{ site.baseurl }}/files/debug2/slurm.qtf
 ~~~
 {: .language-bash}
 
@@ -196,6 +213,23 @@ Or near a location that requires by inserting in the Python script
 import pdb; pdb.set_trace()
 ~~~
 {: .language-python}
+
+> ## Demonstration
+> 
+> Download the files
+> 
+> ~~~
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug3
+> ~~~
+> {: .language-bash}
+>
+> Compile the program with `make`.  Try running inside a debugger.
+> > ## Solution
+> > Use `make` and `gdb` to explore the error.  Use `pdb` for Python.
+> {: .solution}
+{: .challenge}
+
+
 
 ## Working with job schedulers
 
@@ -230,6 +264,25 @@ A debugger such as `gdb` can be run on a login node with the executable and core
 $ gdb ./a.out core.XXXX
 ~~~
 {: .language-bash}
+
+> ## Demonstration
+> 
+> Download the files
+> 
+> ~~~
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug4
+> ~~~
+> {: .language-bash}
+> 
+> Look at the `Makefile`, can you check that the compilation options to turn on some of the compiler options.  See what
+> happens when it is run.
+>
+> > ## Solution
+> >
+> > Set `decfort_dump_flag=y` to create a core file and run with `gdb ./a.out core.XXXX`
+> {: .solution}
+{: .challenge}
+
 
 # Intel Inspector
 
