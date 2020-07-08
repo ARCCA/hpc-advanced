@@ -104,7 +104,8 @@ $ ifort -C main.f90
 > Download the files
 > 
 > ~~~
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug1
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug1/Makefile
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug1/main.f90
 > ~~~
 > {: .language-bash}
 > 
@@ -219,7 +220,9 @@ import pdb; pdb.set_trace()
 > Download the files
 > 
 > ~~~
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug3
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug3/Makefile
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug3/main.f90
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug3/main.py
 > ~~~
 > {: .language-bash}
 >
@@ -270,7 +273,8 @@ $ gdb ./a.out core.XXXX
 > Download the files
 > 
 > ~~~
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug4
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug4/Makefile
+> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/debug4/main.f90
 > ~~~
 > {: .language-bash}
 > 
