@@ -96,7 +96,7 @@ There are a number of example tutorial scripts included in the repository at
 > Download `mnist.py` from
 >
 > ~~~
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/opt1/mnist.py
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/mnist.py
 > ~~~
 > {: .language-bash}
 >
@@ -271,9 +271,9 @@ $ python -m cProfile [-o output] [-s sort] main.py
 > Obtain the examples at
 >
 > ~~~
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/opt1/Makefile
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/opt1/main.f90
-> $ wget --recursive --no-parent {{ site.url }}{{ site.baseurl }}/files/opt1/main.py
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/Makefile
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/main.f90
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/main.py
 > ~~~
 > {: .language-bash}
 >
