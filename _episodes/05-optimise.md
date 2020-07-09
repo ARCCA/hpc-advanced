@@ -271,9 +271,9 @@ $ python -m cProfile [-o output] [-s sort] main.py
 > Obtain the examples at
 >
 > ~~~
-> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/Makefile
-> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/main.f90
-> $ wget {{ site.url }}{{ site.baseurl }}/files/opt1/main.py
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt2/Makefile
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt2/main.f90
+> $ wget {{ site.url }}{{ site.baseurl }}/files/opt2/main.py
 > ~~~
 > {: .language-bash}
 >

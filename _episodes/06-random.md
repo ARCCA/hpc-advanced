@@ -30,7 +30,7 @@ For developers you can use libraries such as:
 >
 > > ## Solution
 > > 
-> > Use `sacct -j <jobid> -o "CPUTimeRAW, UserCPU" and comapre difference.
+> > Use `sacct -j <jobid> -o "CPUTime, UserCPU"` and compare difference.
 > {: .solution}
 {: .challenge}
 
