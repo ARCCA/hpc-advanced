@@ -79,7 +79,7 @@ Matlab can use GPUs.  Matlab is available with `module load matlab`.  For exampl
 {: .challenge}
 
 [Pytorch](https://pytorch.org) is a popular machine learning framework. This is available with module `module load
-pytorch` but can also be installed by the user (see [previous session]({{ site.baseurl }}/03_packages).  Pytorch will need some
+pytorch` but can also be installed by the user (see [previous session]({{ site.baseurl }}/03-packages).  Pytorch will need some
 data files.  These can be downloaded on the login node either by running the example script with `--epochs=0` or within Python such as downloading the MNIST dataset with
 
 ~~~
@@ -132,7 +132,7 @@ There are a number of example tutorial scripts included in the repository at
 GPUs can be used for many tools from Molecular simulation to Photogrammetry software.  Just check the documentation for
 the application for GPUs.
 
-There is also the option of Singularity (see [previous session]({{ site.baseurl }}/03_packages) along with [Nvidia
+There is also the option of Singularity (see [previous session]({{ site.baseurl }}/03-packages) along with [Nvidia
 NGC](https://ngc.nvidia.com/) to lookup and download software that benefits from GPUs.
 
 # Filesystems
